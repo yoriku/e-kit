@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Extendedkit Switcher</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../images/icon.svg">
+<link rel="stylesheet" href="../css/e-kit.min.css" />
+<script src="../js/e-kit.min.js"></script>
+<script src="../js/js/e-kit-icon.min.js"></script>       
+</head>
+<body>
+<div>
+    <nav class="uk-navbar-container uk-light" uk-navbar style="background-color: #faa05a;">
+        <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="../index/index.html"><img width="40" uk-svg src="../images/icon.svg" alt=""></a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <div class="uk-navbar-item">
+                <a uk-icon="icon: menu" href="#offcanvas-menu" uk-toggle></a>
+                <div id="offcanvas-menu" uk-offcanvas="selPanel:.uk-offcanvas-bar-light;">
+                    <div class="uk-offcanvas-bar-light uk-flex uk-flex-column uk-text-center">
+    
+                        <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+    
+                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav>
+                            <li><a href="../index/index.html#start">Get Started</a></li>
+                            <li class="uk-parent uk-open">
+                                <a href="#">Change</a>
+                                <ul class="uk-nav-sub">
+                                    <li><a href="../demo/background.html">background</a></li>
+                                    <li><a href="../demo/button.html">button</a></li>
+                                    <li><a href="../demo/card.html">card</a></li>
+                                    <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                    <li><a href="../demo/minialert.html">minialert</a></li>
+                                    <li><a href="../demo/notification.html">notification</a></li>
+                                    <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                    <li><a href="../demo/pagination.html">pagination</a></li>
+                                    <li><a href="../demo/section.html">section</a></li>
+                                    <li><a href="../demo/subnav.html">subnav</a></li>
+                                    <li><a href="../demo/switcher.html">switcher</a></li>
+                                    <li><a href="../demo/tab.html">tab</a></li>
+                                    <li><a href="../demo/tile.html">tile</a></li>
+                                    <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                    <li><a href="../demo/width.html">width</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../index/index.html#contact">Contact</a></li>
+                        </ul>
+                        <div>
+                            <div class="uk-flex-inline">
+                                <a class="uk-button uk-button-warning-outline" href="">download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--smartphone-menu-end-->
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#start">Get Started</a>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="#">Changes</a>
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+                    <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/background.html">background</a></li>
+                                <li><a href="../demo/button.html">button</a></li>
+                                <li><a href="../demo/card.html">card</a></li>
+                                <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                <li><a href="../demo/minialert.html">minialert</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/notification.html">notification</a></li>
+                                <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                <li><a href="../demo/pagination.html">pagination</a></li>
+                                <li><a href="../demo/section.html">section</a></li>
+                                <li><a href="../demo/subnav.html">subnav</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/switcher.html">switcher</a></li>
+                                <li><a href="../demo/tab.html">tab</a></li>
+                                <li><a href="../demo/tile.html">tile</a></li>
+                                <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                <li><a href="../demo/width.html">width</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#contact">Contact</a>
+                </div></li>
+            </ul>
+            <div class="uk-navbar-item">
+                <a class="uk-button uk-button-warning-outline uk-box-shadow-hover-medium uk-border-pill" href="">Download</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="uk-container-expand uk-text-center">
+    <h1>Switcher</h1>
+    <div class="uk-tile uk-tile-muted uk-text-left">
+        <div class="uk-grid-divider uk-child-width-1-2@m" uk-grid>
+            <div>
+                <h4>Added Classes</h4>
+                <ul class="uk-list uk-list-disc uk-list-emphasis">
+                    <li>.uk-active-danger</li>
+                    <li>.uk-active-warning</li>
+                    <li>.uk-active-success</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Added JavaScript component</h4>
+                <dl>
+                    <dt>cls</dt>
+                    <dd>The cls attribute specifies the class that will be active when using the switcher components.<br>By default, uk-active is specified.</dd>
+                </dl>
+            </div>
+        </div>
+        <p>These classes are used in conjunction with the subnav and tab components.</p>
+        <a class="uk-button uk-button-warning-outline" href="https://getuikit.com/docs/switcher">See UIkit Document</a>
+    </div>
+    <div class="uk-tile uk-tile-default">
+        <h1>Tab</h1>
+    <div uk-grid class="uk-child-width-1-2@m uk-text-left">
+        <div>
+            <ul uk-tab="cls: uk-active-warning">
+                <li><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+            <ul class="uk-switcher uk-margin">
+                <li>Hello!</li>
+                <li>Hello again!</li>
+                <li>Bazinga!</li>
+            </ul>
+        </div>
+            <pre><code>&lt;ul uk-tab=&quot;<b class="uk-text-primary">cls: uk-active-warning</b>&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Active&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&quot;uk-switcher uk-margin&quot;&gt;
+    &lt;li&gt;Hello!&lt;/li&gt;
+    &lt;li&gt;Hello again!&lt;/li&gt;
+    &lt;li&gt;Bazinga!&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+    </div>
+    <div class="uk-tile uk-tile-default">
+        <h1>Subnav</h1>
+    <div uk-grid class="uk-child-width-1-2@m uk-text-left">
+        <div>
+            <ul class="uk-subnav uk-subnav-pill" uk-switcher="cls: uk-active-warning">
+                <li><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+            <ul class="uk-switcher uk-margin">
+                <li>Hello!</li>
+                <li>Hello again!</li>
+                <li>Bazinga!</li>
+            </ul>
+        </div>
+        <div><pre><code>&lt;ul class=&quot;uk-subnav uk-subnav-pill&quot; uk-switcher=&quot;<b class="uk-text-primary">cls: uk-active-warning</b>&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Active&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&quot;uk-switcher uk-margin&quot;&gt;
+    &lt;li&gt;Hello!&lt;/li&gt;
+    &lt;li&gt;Hello again!&lt;/li&gt;
+    &lt;li&gt;Bazinga!&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+    </div>
+                    
+</div>
+</body>
+</html>

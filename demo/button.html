@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Extendedkit Button</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../images/icon.svg">
+<link rel="stylesheet" href="../css/e-kit.min.css" />
+<script src="../js/e-kit.min.js"></script>
+<script src="../js/js/e-kit-icon.min.js"></script>       
+</head>
+<body>
+<div>
+    <nav class="uk-navbar-container uk-light" uk-navbar style="background-color: #faa05a;">
+        <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="../index/index.html"><img width="40" uk-svg src="../images/icon.svg" alt=""></a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <div class="uk-navbar-item">
+                <a uk-icon="icon: menu" href="#offcanvas-menu" uk-toggle></a>
+                <div id="offcanvas-menu" uk-offcanvas="selPanel:.uk-offcanvas-bar-light;">
+                    <div class="uk-offcanvas-bar-light uk-flex uk-flex-column uk-text-center">
+    
+                        <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+    
+                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav>
+                            <li><a href="../index/index.html#start">Get Started</a></li>
+                            <li class="uk-parent uk-open">
+                                <a href="#">Change</a>
+                                <ul class="uk-nav-sub">
+                                    <li><a href="../demo/background.html">background</a></li>
+                                    <li><a href="../demo/button.html">button</a></li>
+                                    <li><a href="../demo/card.html">card</a></li>
+                                    <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                    <li><a href="../demo/minialert.html">minialert</a></li>
+                                    <li><a href="../demo/notification.html">notification</a></li>
+                                    <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                    <li><a href="../demo/pagination.html">pagination</a></li>
+                                    <li><a href="../demo/section.html">section</a></li>
+                                    <li><a href="../demo/subnav.html">subnav</a></li>
+                                    <li><a href="../demo/switcher.html">switcher</a></li>
+                                    <li><a href="../demo/tab.html">tab</a></li>
+                                    <li><a href="../demo/tile.html">tile</a></li>
+                                    <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                    <li><a href="../demo/width.html">width</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../index/index.html#contact">Contact</a></li>
+                        </ul>
+                        <div>
+                            <div class="uk-flex-inline">
+                                <a class="uk-button uk-button-warning-outline" href="">download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--smartphone-menu-end-->
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#start">Get Started</a>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="#">Changes</a>
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+                    <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/background.html">background</a></li>
+                                <li><a href="../demo/button.html">button</a></li>
+                                <li><a href="../demo/card.html">card</a></li>
+                                <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                <li><a href="../demo/minialert.html">minialert</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/notification.html">notification</a></li>
+                                <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                <li><a href="../demo/pagination.html">pagination</a></li>
+                                <li><a href="../demo/section.html">section</a></li>
+                                <li><a href="../demo/subnav.html">subnav</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/switcher.html">switcher</a></li>
+                                <li><a href="../demo/tab.html">tab</a></li>
+                                <li><a href="../demo/tile.html">tile</a></li>
+                                <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                <li><a href="../demo/width.html">width</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#contact">Contact</a>
+                </div></li>
+            </ul>
+            <div class="uk-navbar-item">
+                <a class="uk-button uk-button-warning-outline uk-box-shadow-hover-medium uk-border-pill" href="">Download</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="uk-container-expand uk-text-center">
+    <h1>Button</h1>
+    <div class="uk-tile uk-tile-muted uk-text-left">
+        <h4>Added Classes</h4>
+        <ul class="uk-list uk-list-disc uk-list-emphasis">
+            <li>.uk-button-danger</li>
+            <li>.uk-button-warning</li>
+            <li>.uk-button-success</li>
+            <li>.uk-button-default-outline</li>
+            <li>.uk-button-primary-outline</li>
+            <li>.uk-button-secondary-outline</li>
+            <li>.uk-button-danger-outline</li>
+            <li>.uk-button-warning-outline</li>
+            <li>.uk-button-success-outline</li>
+            <li>.uk-button-floating</li>
+        </ul>
+        <a class="uk-button uk-button-warning-outline" href="https://getuikit.com/docs/button">See UIkit Document</a>
+    </div>
+    <div class="uk-tile uk-tile-default uk-text-left">
+        <h3>Default Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default">.uk-button-default</a>
+        <a class="uk-margin-small uk-button uk-button-primary">.uk-button-primary</a>
+        <a class="uk-margin-small uk-button uk-button-secondary">.uk-button-secondary</a>
+        <a class="uk-margin-small uk-button uk-button-danger">.uk-button-danger</a>
+        <a class="uk-margin-small uk-button uk-button-warning">.uk-button-warning</a>
+        <a class="uk-margin-small uk-button uk-button-success">.uk-button-success</a>
+        <h3>Outline Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default-outline">.uk-button-default-outline</a>
+        <a class="uk-margin-small uk-button uk-button-primary-outline">.uk-button-primary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-secondary-outline">.uk-button-secondary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-danger-outline">.uk-button-danger-outline</a>
+        <a class="uk-margin-small uk-button uk-button-warning-outline">.uk-button-warning-outline</a>
+        <a class="uk-margin-small uk-button uk-button-success-outline">.uk-button-success-outline</a>
+        <h3>Floating Action Button</h3>
+        <a class="uk-button uk-button-primary uk-button-floating" uk-icon="twitter"></a>
+        <a class="uk-button uk-button-secondary uk-button-floating" uk-icon="github"></a>
+    </div>
+    <div class="uk-tile uk-tile-warning uk-text-left">
+        <h3>Default Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default">.uk-button-default</a>
+        <a class="uk-margin-small uk-button uk-button-primary">.uk-button-primary</a>
+        <a class="uk-margin-small uk-button uk-button-secondary">.uk-button-secondary</a>
+        <a class="uk-margin-small uk-button uk-button-danger">.uk-button-danger</a>
+        <a class="uk-margin-small uk-button uk-button-warning">.uk-button-warning</a>
+        <a class="uk-margin-small uk-button uk-button-success">.uk-button-success</a>
+        <h3>Outline Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default-outline">.uk-button-default-outline</a>
+        <a class="uk-margin-small uk-button uk-button-primary-outline">.uk-button-primary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-secondary-outline">.uk-button-secondary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-danger-outline">.uk-button-danger-outline</a>
+        <a class="uk-margin-small uk-button uk-button-warning-outline">.uk-button-warning-outline</a>
+        <a class="uk-margin-small uk-button uk-button-success-outline">.uk-button-success-outline</a>
+        <h3>Floating Action Button</h3>
+        <a class="uk-button uk-button-primary uk-button-floating" uk-icon="twitter"></a>
+        <a class="uk-button uk-button-secondary uk-button-floating" uk-icon="github"></a>
+    </div>
+    <div class="uk-tile uk-tile-secondary uk-text-left">
+        <h3>Default Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default">.uk-button-default</a>
+        <a class="uk-margin-small uk-button uk-button-primary">.uk-button-primary</a>
+        <a class="uk-margin-small uk-button uk-button-secondary">.uk-button-secondary</a>
+        <a class="uk-margin-small uk-button uk-button-danger">.uk-button-danger</a>
+        <a class="uk-margin-small uk-button uk-button-warning">.uk-button-warning</a>
+        <a class="uk-margin-small uk-button uk-button-success">.uk-button-success</a>
+        <h3>Outline Style Button</h3>
+        <a class="uk-margin-small uk-button uk-button-default-outline">.uk-button-default-outline</a>
+        <a class="uk-margin-small uk-button uk-button-primary-outline">.uk-button-primary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-secondary-outline">.uk-button-secondary-outline</a>
+        <a class="uk-margin-small uk-button uk-button-danger-outline">.uk-button-danger-outline</a>
+        <a class="uk-margin-small uk-button uk-button-warning-outline">.uk-button-warning-outline</a>
+        <a class="uk-margin-small uk-button uk-button-success-outline">.uk-button-success-outline</a>
+        <h3>Floating Action Button</h3>
+        <a class="uk-button uk-button-primary uk-button-floating" uk-icon="twitter"></a>
+        <a class="uk-button uk-button-secondary uk-button-floating" uk-icon="github"></a>
+    </div>
+</div>
+</body>
+</html>

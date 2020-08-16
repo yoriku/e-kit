@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Extendedkit Offcanvas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../images/icon.svg">
+<link rel="stylesheet" href="../css/e-kit.min.css" />
+<script src="../js/e-kit.min.js"></script>
+<script src="../js/js/e-kit-icon.min.js"></script>       
+</head>
+<body>
+<div>
+    <nav class="uk-navbar-container uk-light" uk-navbar style="background-color: #faa05a;">
+        <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="../index/index.html"><img width="40" uk-svg src="../images/icon.svg" alt=""></a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <div class="uk-navbar-item">
+                <a uk-icon="icon: menu" href="#offcanvas-menu" uk-toggle></a>
+                <div id="offcanvas-menu" uk-offcanvas="selPanel:.uk-offcanvas-bar-light;">
+                    <div class="uk-offcanvas-bar-light uk-flex uk-flex-column uk-text-center">
+    
+                        <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+    
+                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav>
+                            <li><a href="../index/index.html#start">Get Started</a></li>
+                            <li class="uk-parent uk-open">
+                                <a href="#">Change</a>
+                                <ul class="uk-nav-sub">
+                                    <li><a href="../demo/background.html">background</a></li>
+                                    <li><a href="../demo/button.html">button</a></li>
+                                    <li><a href="../demo/card.html">card</a></li>
+                                    <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                    <li><a href="../demo/minialert.html">minialert</a></li>
+                                    <li><a href="../demo/notification.html">notification</a></li>
+                                    <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                    <li><a href="../demo/pagination.html">pagination</a></li>
+                                    <li><a href="../demo/section.html">section</a></li>
+                                    <li><a href="../demo/subnav.html">subnav</a></li>
+                                    <li><a href="../demo/switcher.html">switcher</a></li>
+                                    <li><a href="../demo/tab.html">tab</a></li>
+                                    <li><a href="../demo/tile.html">tile</a></li>
+                                    <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                    <li><a href="../demo/width.html">width</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../index/index.html#contact">Contact</a></li>
+                        </ul>
+                        <div>
+                            <div class="uk-flex-inline">
+                                <a class="uk-button uk-button-warning-outline" href="">download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--smartphone-menu-end-->
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#start">Get Started</a>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="#">Changes</a>
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3">
+                    <div class="uk-navbar-dropdown-grid uk-child-width-1-3" uk-grid>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/background.html">background</a></li>
+                                <li><a href="../demo/button.html">button</a></li>
+                                <li><a href="../demo/card.html">card</a></li>
+                                <li><a href="../demo/dotnav.html">dotnav</a></li>
+                                <li><a href="../demo/minialert.html">minialert</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/notification.html">notification</a></li>
+                                <li><a href="../demo/offcanvas.html">offcanvas</a></li>
+                                <li><a href="../demo/pagination.html">pagination</a></li>
+                                <li><a href="../demo/section.html">section</a></li>
+                                <li><a href="../demo/subnav.html">subnav</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../demo/switcher.html">switcher</a></li>
+                                <li><a href="../demo/tab.html">tab</a></li>
+                                <li><a href="../demo/tile.html">tile</a></li>
+                                <li><a href="../demo/tooltip.html">tooltip</a></li>
+                                <li><a href="../demo/width.html">width</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div></li>
+                <li><div class="uk-navbar-item">
+                <a class="uk-button uk-button-text uk-padding-small" href="../index/index.html#contact">Contact</a>
+                </div></li>
+            </ul>
+            <div class="uk-navbar-item">
+                <a class="uk-button uk-button-warning-outline uk-box-shadow-hover-medium uk-border-pill" href="">Download</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="uk-container-expand uk-text-center">
+    <h1>Offcanvas</h1>
+    <div class="uk-tile uk-tile-muted uk-text-left">
+        <div class="uk-grid-divider uk-child-width-1-2@m" uk-grid>
+            <div>
+                <h4>Added Classes</h4>
+                <ul class="uk-list uk-list-disc uk-list-emphasis">
+                    <li>.offcanvas-bar-light</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Added JavaScript component</h4>
+                <dl>
+                    <dt>selPanel</dt>
+                    <dd>If you use the uk-offcanvas-bar-light class, you must specify .uk-offcanvas-bar-light in the selPanel attribute. If you use traditional offcanvas, you don't need to specify it.</dd>
+                </dl>
+            </div>
+        </div>
+        
+        <a class="uk-button uk-button-warning-outline" href="https://getuikit.com/docs/offcanvas">See UIkit Document</a>
+    </div>
+    <div class="uk-tile uk-tile-default uk-text-left">
+        <h2>Traditional Offcanvas</h2>
+        <a class="uk-button uk-button-default" href="#offcanvas-tra" uk-toggle>traditional</a>
+    </div>
+    <div class="uk-tile uk-tile-default uk-text-left">
+        <h2>Added Offcanvas</h2>
+        <div class="uk-grid-divider uk-child-width-1-2@m" uk-grid>
+            <div>
+                <a class="uk-button uk-button-default" href="#offcanvas-add" uk-toggle>Added</a>
+            </div>
+            <div>
+                <pre><code>&lt;div id=&quot;offcanvas-add&quot; uk-offcanvas=&quot;<b class="uk-text-primary">selPanel:.uk-offcanvas-bar-light;</b>&quot;&gt;
+&lt;div class=&quot;uk-offcanvas-bar<b class="uk-text-primary">-light</b> uk-flex uk-flex-column uk-text-center&quot;&gt;
+
+    &lt;button class=&quot;uk-offcanvas-close uk-close-large&quot; type=&quot;button&quot; uk-close&gt;&lt;/button&gt;
+
+    &lt;ul class=&quot;uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon&quot; uk-nav&gt;
+        &lt;li class=&quot;uk-active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Active&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;uk-parent&quot;&gt;
+            &lt;a href=&quot;#&quot;&gt;Parent&lt;/a&gt;
+            &lt;ul class=&quot;uk-nav-sub&quot;&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Sub item&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Sub item&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Sub item&lt;/a&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Sub item&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Sub item&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item&lt;/a&gt;&lt;/li&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+        </div>
+    </div>
+
+    <div id="offcanvas-tra" uk-offcanvas>
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column uk-text-center">
+
+            <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li class="uk-parent">
+                    <a href="#">Parent</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a>
+                            <ul>
+                                <li><a href="#">Sub item</a></li>
+                                <li><a href="#">Sub item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Item</a></li>
+                <hr class="uk-divider-icon">
+                <ul uk-accordion="collapsible: false">
+                    <li>
+                        <a class="uk-accordion-title">item</a>
+                        <div class="uk-accordion-content">
+                            item
+                        </div>
+                        </li><li>
+                        <a class="uk-accordion-title">item</a>
+                        <div class="uk-accordion-content">
+                            item
+                        </div>
+                    </li>
+                </ul>
+                <hr class="uk-divider-icon">
+                <a class="uk-button uk-button-link" href="">button</a>
+                <a class="uk-button uk-button-default-outline" href="">button</a>
+            </ul>
+
+            <div>
+                <div class="uk-grid-small uk-child-width-auto uk-flex-inline" uk-grid>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: mail"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: receiver"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="offcanvas-add" uk-offcanvas="selPanel:.uk-offcanvas-bar-light;">
+        <div class="uk-offcanvas-bar-light uk-flex uk-flex-column uk-text-center">
+
+            <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical uk-nav-parent-icon" uk-nav>
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li class="uk-parent">
+                    <a href="#">Parent</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a>
+                            <ul>
+                                <li><a href="#">Sub item</a></li>
+                                <li><a href="#">Sub item</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Item</a></li>
+                <hr class="uk-divider-icon">
+                <ul uk-accordion="collapsible: false">
+                    <li>
+                        <a class="uk-accordion-title">item</a>
+                        <div class="uk-accordion-content">
+                            item
+                        </div>
+                        </li><li>
+                        <a class="uk-accordion-title">item</a>
+                        <div class="uk-accordion-content">
+                            item
+                        </div>
+                    </li>
+                </ul>
+                <hr class="uk-divider-icon">
+                <a class="uk-button uk-button-link" href="">button</a>
+                <a class="uk-button uk-button-default-outline" href="">button</a>
+            </ul>
+
+            <div>
+                <div class="uk-grid-small uk-child-width-auto uk-flex-inline" uk-grid>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: facebook"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: twitter"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: mail"></a>
+                    </div>
+                    <div>
+                        <a class="uk-icon-button" href="#" uk-icon="icon: receiver"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+                    
+</div>
+</body>
+</html>
